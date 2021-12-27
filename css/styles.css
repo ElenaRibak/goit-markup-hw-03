@@ -98,6 +98,7 @@ address {
   background: #ffffff;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -195,7 +196,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   margin-top: 94px;
 }
 
@@ -261,7 +262,6 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -272,7 +272,6 @@ address {
 .aside-list {
   width: 270px;
   margin-right: 30px;
-  margin-bottom: 94px;
 }
 
 .aside-after-title {
@@ -283,8 +282,8 @@ address {
   letter-spacing: 0.03em;
   color: var(--header-color);
 
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .aside-pre-title {
@@ -429,6 +428,7 @@ address {
   width: 380;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .box-item:nth-child(3n) {
