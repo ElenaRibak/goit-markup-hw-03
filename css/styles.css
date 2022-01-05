@@ -212,7 +212,7 @@ element.style {
 .about-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color);
@@ -419,6 +419,10 @@ element.style {
   min-width: 73px;
   min-height: 38px;
   justify-content: center;
+}
+
+.box {
+  padding-bottom: 94px;
 }
 
 .box-text {
